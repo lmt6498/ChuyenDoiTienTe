@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>to Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="number" id="soTien"></td>
+            <td><select id="kv">
+                <option>Vietnam</option>
+                <option>America</option>
+                <option>Japan</option>
+            </select></td>
+            <td><select id="donvi">
+                <option>VND</option>
+                <option>USD</option>
+                <option>YEN</option>
+            </select></td>
+            <td><button type="button" onclick="convert()">Convert</button> </td>
+        </tr>
+    </table>
+    <div id="showResult"></div>
+</form>
+</body>
+</html>
+<script src="xuly.js">
+</script>
